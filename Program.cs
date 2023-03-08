@@ -1,5 +1,7 @@
 ﻿using ExpressionAnalyzer;
 
+Console.WriteLine("PJP - ExpressionAnalyzer");
+
 if (int.TryParse(Console.ReadLine(), out var expressionCount))
 {
     var expressions = new string[expressionCount];
